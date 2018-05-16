@@ -1,0 +1,26 @@
+.container 
+{
+    width: 1280px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.container ul li
+{
+    display: inline-block;
+    position: relative; 
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#inner-nav
+{
+    display: none;
+}
+
+:hover
+{
+    display: block;
+}

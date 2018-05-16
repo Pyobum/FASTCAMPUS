@@ -1,0 +1,91 @@
+.list3 {
+    width: 1050px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.list3 li {
+    width: 330px;
+    height: 380px;
+    border: solid 1px #e9ecef;
+    overflow: hidden;
+    float: left;
+    margin: 0 10px 25px 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.list3 li .img {
+    width: 100%;
+    height: 155px;
+    margin: 0 0 18px 0;
+    float: left;
+    text-indent: -9999px;
+    background-size: auto 100%;
+    background-position: 50% 50%;
+}
+
+.list3 li .content {
+    padding: 22px 20px;
+}
+
+.list3 li .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 16px 0;
+}
+
+.list3 li .text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #868e96;
+    padding: 0 0 15px 0;
+}
+
+.list3 li .author {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 50%;
+}
+
+.list3 li .author-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 7px 0 0;
+}
+
+.list3 li .author-img img {
+    width: 100%;
+    height: auto;
+}
+
+.list3 li .author-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.list3 li .like {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.list3 li .like .btn-like {
+    width: 45px;
+    height: 45px;
+    background: rgba(0, 0, 0, .5);
+    border: 0;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list3 li .like .btn-like i {
+    color: #fff;
+    font-size: 25px;
+}

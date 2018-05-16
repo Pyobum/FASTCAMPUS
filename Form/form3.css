@@ -1,0 +1,160 @@
+.buttons {
+    padding: 50px;
+}
+
+.buttons .btn {
+    border: 0;
+    background: #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    line-height: 1 !important;
+    font-weight: normal;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.buttons .btn.gray {
+    background: #868e96;
+    color: #fff;
+}
+
+.buttons .btn.blue {
+    background: #4dadf7;
+    color: #fff;
+}
+
+.buttons .btn.small {
+    font-size: 16px;
+    padding: 13px 20px;
+}
+
+.buttons .btn.medium {
+    font-size: 20px;
+    padding: 14px 30px;
+}
+
+.buttons .btn.large {
+    font-size: 24px;
+    padding: 18px 40px;
+}
+
+.buttons .btn:hover {
+    background: #4dadf7;
+}
+
+.buttons .btn.disabled {
+    background: #dee2e6;
+}
+
+/*
+*/
+
+.dropdown-select {
+    margin: 50px;
+}
+
+.dropdown-select select {
+    width: 210px;
+    height: 44px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border: 0;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+/*
+*/
+
+.dropdown {
+    width: 210px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dropdown .head {
+    width: 100%;
+    height: 44px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown .head i {
+    float: right;
+}
+
+.dropdown .head .xi-angle-up {
+    display: none;
+}
+
+.dropdown .body {
+    background: #e9ecef;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: none;
+}
+
+.dropdown .body button {
+    width: 100%;
+    height: 44px;
+    border: 0;
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: left;
+    cursor: pointer;
+    background: none;
+}
+
+.dropdown .body button:hover {
+    background: #51cf66;
+    color: #fff;
+}
+
+.dropdown:hover .head {
+    background: #e9ecef;
+}
+
+.dropdown:hover .head .xi-angle-up {
+    display: inline-block;
+}
+
+.dropdown:hover .head .xi-angle-down {
+    display: none;
+}
+
+.dropdown:hover .body {
+    display: block;
+}
+
+/*
+*/
+
+.dropdown.alt:hover .head .xi-angle-down {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.dropdown.alt .body {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.dropdown.alt:hover .body {
+    max-height: 1000px;
+}
+
+.dropdown.alt .head,
+.dropdown .head i,
+.dropdown.alt .body {
+    transition: all .5s;
+}

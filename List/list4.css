@@ -1,0 +1,74 @@
+.list4 {
+    width: 1000px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.list4 li {
+    width: 230px;
+    overflow: hidden;
+    float: left;
+    margin: 0 10px 25px 10px;
+    padding: 90px 0 0 0;
+    position: relative;
+}
+
+.list4 li .img {
+    width: 200px;
+    height: 265px;
+    text-indent: -9999px;
+    background-size: auto 100%;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
+}
+
+.list4 li .content {
+    height: 315px;
+    border: solid 1px #e9ecef;
+    background: #e8f7ff;
+}
+
+.list4 li:nth-child(2n) .content {
+    background: #fff9db;
+}
+
+.list4 li .content .category {
+    padding: 190px 15px 10px 15px;
+    font-size: 11px;
+    color: #12b886;
+}
+
+.list4 li .content .title {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.list4 li .author {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 100%;
+}
+
+.list4 li .author-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 7px 0 0;
+}
+
+.list4 li .author-img img {
+    width: 100%;
+    height: auto;
+}
+
+.list4 li .author-text {
+    font-size: 14px;
+    line-height: 40px;
+    color: #495057;
+}

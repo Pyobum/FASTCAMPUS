@@ -1,0 +1,6 @@
+그리드 연습 문제
+https://app.zeplin.io
+id: bob+test@heem.net / pw: frontend1234
+
+그리드 활용
+https://github.com/hazebob/frontendbootcamp_practice

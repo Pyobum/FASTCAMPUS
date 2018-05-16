@@ -1,0 +1,75 @@
+.list2 {
+    width: 1000px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.list2 li {
+    width: 480px;
+    height: 200px;
+    border: solid 1px #e9ecef;
+    overflow: hidden;
+    float: left;
+    margin: 0 8px 25px 8px;
+}
+
+.list2 li .img {
+    width: 35.41%;
+    height: 198px;
+    margin: 0 17px 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.list2 li .img img {
+    width: 100%;
+	height: auto;
+    height: 100%;
+    width: auto;
+    margin: 0 0 0 -50px;
+}
+
+.list2 li .content {
+    padding: 22px 30px;
+}
+
+.list2 li .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 16px 0;
+}
+
+.list2 li .text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #868e96;
+    padding: 0 0 15px 0;
+}
+
+.list2 li .author-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 7px 0 0;
+}
+
+.list2 li .author-img img {
+    width: 100%;
+    height: auto;
+}
+
+.list2 li .author-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.list2 li .img.bg {
+    text-indent: -9999px;
+    background-size: auto 100%;
+    background-position: 50% 50%;
+} 
+    
+

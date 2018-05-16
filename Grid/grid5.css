@@ -1,0 +1,33 @@
+.container
+{
+    width: 620px;
+    margin: 200px auto;
+    overflow: hidden;
+}
+
+.container dl
+{
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.container dl dt
+{
+    position: relative;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+    font-weight: bold;
+}
+
+.container dl dd{
+    /* position: absolute; */
+    float: right;
+    line-height: 1.5;
+    width: 560px;
+    background: url(https://cdn.zeplin.io/59a75723fe323453e7239bd8/assets/BD6FA8CE-C32D-4FA6-90FE-EE212F70BB68.png) 0 40%(no-repeat);
+    padding: 15px 10px 15px 30px;
+    box-sizing: border-box;
+}
+

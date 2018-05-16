@@ -1,0 +1,21 @@
+.full-width-container2 {
+    width: 100%;
+}
+
+.full-width-container2 header {
+    float: left;
+    width: 200px;
+    background: #ff6b6b;
+}
+
+.full-width-container2 header h1 {
+    padding: 50px 0;
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+}
+
+.full-width-container2 main {
+    background: #e9ecef;
+    margin-left: 200px;
+}

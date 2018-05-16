@@ -1,0 +1,27 @@
+@import url('reset.css');
+/*
+*/
+
+.process 
+{
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.process dl 
+{
+    overflow: hidden;
+}
+
+.process dl dd 
+{
+    margin: 0 0 0 120px;
+    line-height: 1.5;
+}
+
+
+.process h1 
+{
+    padding: 0 0 22px 0;
+}

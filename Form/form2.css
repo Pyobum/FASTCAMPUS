@@ -1,0 +1,76 @@
+.form2 {
+    width: 425px;
+    margin: 100px auto;
+    background: #fff;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form2 h1 {
+    font-size: 30px;
+    padding: 27px 40px;
+    background: #fff9db;
+}
+
+.form2 form {
+    padding: 20px 40px;
+}
+
+.form2 .set {
+    padding: 20px 0;
+    overflow: hidden;
+    border: 0px;
+}
+
+.form2 .set+.set {
+    border-top: 1px solid #96f2d7;
+}
+
+.form2 .set>label {
+    float: left;
+    font-size: 18px;
+    width: 90px;
+    color: #12b886;
+    padding: 12px 0;
+}
+
+.form2 .set .input {
+    float: right;
+    width: 250px;
+}
+
+.form2 .set input[type="text"],
+.form2 .set select {
+    font-size: 16px;
+    padding: 12px 14px;
+    border: 0;
+    background: #f8f9fa;
+    width: 100%;
+    box-sizing: border-box;
+    /*-webkit-appearance:none;*/
+    border-radius: 0;
+    display: inline-block;
+}
+
+.form2 .set select {
+    font-size: 14px;
+}
+
+.form2 .set .select-list {
+    padding: 12px 0;
+}
+
+.form2 .set .select-list label {
+    font-size: 14px;
+    padding: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.form2 .set .select-list input[type="radio"] {
+    margin: 0;
+    vertical-align: middle;
+}
+
+label .input
+{
+    display: block;
+}
